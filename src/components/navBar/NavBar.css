@@ -1,0 +1,22 @@
+.navBar{
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.scrolling{
+    background-color: grey;
+    transition: all 0.7s ease;
+}
+
+.navBar-logo{
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    cursor: pointer;
+}
