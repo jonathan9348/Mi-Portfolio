@@ -1,12 +1,25 @@
 .img-1{
-    display: block;
-    width: 50vw;
-    height: 60vh;
-    align-self: center;
-    overflow: hidden;
+    width: 40vw;
+    height: 50vh;
+}
+
+.img-desc{
+    background-color: darkgoldenrod;
+    color: black;
+    opacity: 90%;
 }
 
 .row{
     display: flex;
     justify-content: center;
+}
+
+.tit{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.links{
+    border-bottom: 1px solid black;
 }
